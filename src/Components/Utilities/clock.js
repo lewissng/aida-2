@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './clock.scss';
+import useClock from '../../CustomHooks/useClock';
 
 const Clock = () => {
 
@@ -15,13 +16,15 @@ const Clock = () => {
     )
   }
 
-  useEffect(() => {
+  useClock(realTime);
+
+  /* useEffect(() => {
     realTime();
     return () => {
       clearInterval(realTime)
     };
   }
-  );
+  ); */
 
   return (
     <div>

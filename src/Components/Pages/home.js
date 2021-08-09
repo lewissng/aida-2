@@ -1,13 +1,6 @@
-import React, { useEffect } from 'react';
-import useWelcome from '../../CustomHooks/useWelcome';
+import React from 'react';
 
 const About = () => {
-
-const welcome = useWelcome;
-
-useEffect(() => {
-  welcome();
-})
 
   return (
     <div>
