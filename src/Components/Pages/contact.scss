@@ -1,0 +1,17 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    //margin-top: 0vh;
+    //margin-left: 10vh;
+}
+
+label {
+    align-self: flex-start;
+    padding: 5px;
+}
+
+.input-submit {
+    margin: 5px;
+}
